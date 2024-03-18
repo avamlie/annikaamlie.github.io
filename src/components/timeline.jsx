@@ -15,6 +15,17 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                      <span class="material-icons" style={{fontSize:'24px',paddingTop:'8px',paddingLeft:'1px'}}>insights</span>
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Data Science Intern at Fidelity National Financial<span> Summer 2020</span></h2>
+                        <p>As a data science intern at FNF, I worked with Neo4j to implement a graph database for  </p>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
@@ -26,17 +37,6 @@ export default class Timeline extends Component {
                           I utilized Magento to organize the website according to customer preferences, and I edited listing descriptions and images. This internship gave me a great insight into 
                           user experience and customer satisfaction. As one of two interns, I gained hands-on experience in many parts of the company besides e-Commerce, from staging photoshoots to writing copy.
                         </p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-4">
-                      <span class="material-icons" style={{fontSize:'24px',paddingTop:'8px',paddingLeft:'1px'}}>insights</span>
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Data Science Intern at Fidelity National Financial<span> Summer 2020</span></h2>
-                        <p>As a data science intern at FNF, I worked with Neo4j to implement a graph database for  </p>
                       </div>
                     </div>
                   </article>
