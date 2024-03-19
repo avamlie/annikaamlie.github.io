@@ -14,8 +14,8 @@ export default class About extends Component {
                     <span className="heading-meta">Who Am I?</span>
                     <h2 className="colorlib-heading">My Background</h2>
                     <p>I am a software engineer with a passion for all things creative. I'm currently living in New York City and am originally from Jacksonville, Florida.
-                         Since 2021, I've been working as a data engineer at JP Morgan Chase, where I have designed and developed data pipeline features for an internal-facing application. 
-                        When I'm not at work, I enjoy taking dance classes, making accessories for my Etsy shop, and working on side projects to improve my skills (like this personal website)!
+                         Since 2021, I've been working as a software engineer at JP Morgan Chase, where I have designed and developed data pipeline features for an internal-facing application. 
+                        When I'm not at work, I enjoy taking dance classes, making accessories for my Etsy shop, and working on side projects to improve my technical skills (like this personal website)!
                     </p>
                     </div>
                 </div>
@@ -34,9 +34,9 @@ export default class About extends Component {
             </div>
             <div className="row row-pt-md">
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
-                <span className="icon">
-                <span class="material-icons">analytics</span>
+                <div className="services color-1" >
+                <span className="icon" >
+                <span class="material-icons" style={{color:"#E9E1C7"}}>analytics</span>
                 </span>
                 {/* <span class="material-icons">&#xE87C;</span> */}
                 <div className="desc">
@@ -49,7 +49,7 @@ export default class About extends Component {
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                 <span className="icon">
-                <span class="material-icons">cloud_queue</span>
+                <span class="material-icons" style={{color:"#FC6A38"}}>cloud_queue</span>
                 </span>
                 <div className="desc">
                     <h3>Cloud Services</h3>
@@ -59,9 +59,9 @@ export default class About extends Component {
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-5">
+                <div className="services color-1">
                 <span className="icon">
-                    <i className="icon-data" />
+                    <i className="icon-data" style={{color:"#E9E1C7"}}/>
                 </span>
                 <div className="desc">
                     <h3>Infrastructure and Architecture Design</h3>

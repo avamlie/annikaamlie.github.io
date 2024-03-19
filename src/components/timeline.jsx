@@ -15,6 +15,28 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                      <span class="material-symbols-outlined" style={{fontSize:'24px',paddingTop:'8px',paddingLeft:'1px',color:'white'}}>dvr</span>
+                      </div>
+                      <div className="timeline-label">
+                        <h2>JP Morgan Chase Software Engineer II<span> Current</span></h2>
+                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
+                      </div>
+                    </div>
+                  </article>
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                      <span class="material-icons" style={{fontSize:'24px',paddingTop:'8px',paddingLeft:'1px'}}>computer</span>
+                      </div>
+                      <div className="timeline-label">
+                        <h2>JP Morgan Chase Software Engineer Program<span> 2021-2023</span></h2>
+                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
+                      </div>
+                    </div>
+                  </article>
                 <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
@@ -22,14 +44,15 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Data Science Intern at Fidelity National Financial<span> Summer 2020</span></h2>
-                        <p>As a data science intern at FNF, I worked with Neo4j to implement a graph database for  </p>
+                        <p>As a data science intern at FNF, I worked with Neo4j to implement a graph database for thousands of public MLS records. 
+                          I wrote Cypher queries, performed feature engineering, and presented a PoC to the data science team and the CIO.</p>
                       </div>
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
-                      <span class="material-icons" style={{fontSize:'24px',paddingTop:'8px',paddingLeft:'1px'}}>shopping_cart</span>
+                      <span class="material-icons" style={{fontSize:'24px',paddingTop:'8px',paddingLeft:'1px',backgroundColor:''}}>shopping_cart</span>
                       </div>
                       <div className="timeline-label">
                         <h2>E-Commerce Intern at Natural Life <span>2017-2018</span></h2>
@@ -40,17 +63,7 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                      <span class="material-icons" style={{fontSize:'24px',paddingTop:'8px',paddingLeft:'1px'}}>computer</span>
-                      </div>
-                      <div className="timeline-label">
-                        <h2>JP Morgan Chase Software Engineer Program<span> 2003-2015</span></h2>
-                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
-                      </div>
-                    </div>
-                  </article>
+                  
                   <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-none">

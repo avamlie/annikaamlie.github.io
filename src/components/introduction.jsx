@@ -31,7 +31,7 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1 style={{color: "#E9E1C7"}}>I love creating things </h1>
+                          <h1 style={{color: "#E9E1C7"}}>I love building things! </h1>
                           <p><a className="btn btn-primary btn-learn" href="https://github.com/avamlie" target="_blank" rel="noopener noreferrer" style={{color: "#E9E1C7"}}>View Projects <i className="icon-briefcase3" /></a></p>
                         </div>
                       </div>
