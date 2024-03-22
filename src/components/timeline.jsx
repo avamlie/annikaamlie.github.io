@@ -21,8 +21,9 @@ export default class Timeline extends Component {
                       <span class="material-symbols-outlined" style={{fontSize:'24px',paddingTop:'8px',paddingLeft:'1px',color:'white'}}>dvr</span>
                       </div>
                       <div className="timeline-label">
-                        <h2>JP Morgan Chase Software Engineer II<span> Current</span></h2>
-                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
+                        <h2>JP Morgan Chase Software Engineer II<span> 2023-Current</span></h2>
+                        <p>In 2023, I graduated SEP (Software Engineer Program) and became a Software Engineer II. My responsibilities as a software engineer on the Data Services team include
+                           deploying infrastructure via Terraform, writing data validation and cleaning scripts using Python, and designing new architecture in AWS.</p> 
                       </div>
                     </div>
                   </article>
@@ -33,7 +34,9 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>JP Morgan Chase Software Engineer Program<span> 2021-2023</span></h2>
-                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
+                        <p>As a member of JPMC's Software Engineer Program, I worked on a small Agile team with data engineers, application owners, and product managers. 
+                          I was also involved in the SEP Mentorship Program, where I mentored 4 younger engineers in the program. I then joined the SEP Mentorship Committee and
+                          planned events such as "Speed Networking" and mentor/mentee lunches.</p> 
                       </div>
                     </div>
                   </article>
