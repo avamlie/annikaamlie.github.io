@@ -31,6 +31,9 @@ export default class Projects extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3 style={{color: 'white'}}>Golden Globes NLP Project</h3>
+											<span>Uses natural language processing to determine the winners of the Golden Globes given a subset
+												of tweets related to the event.
+											</span>
 											<p className="icon">
 												<span><a href="https://github.com/avamlie/golden-globes">View Here</a></span>
 											</p>
