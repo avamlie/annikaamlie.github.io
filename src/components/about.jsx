@@ -13,9 +13,10 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">Who Am I?</span>
                     <h2 className="colorlib-heading">My Background</h2>
-                    <p>I am a software engineer with a passion for all things creative. I'm currently living in New York City and am originally from Jacksonville, Florida.
-                         Since 2021, I've been working as a software engineer at JP Morgan Chase, where I have designed and developed data pipeline features for an internal-facing application. 
-                        When I'm not at work, I enjoy taking dance classes, making accessories for my Etsy shop, and working on side projects to improve my technical skills (like this personal website)!
+                    <p>I am a software engineer based in NYC with a passion for learning and solving complex problems with my technical expertise. 
+                        I enjoy finding ways to combine my love for all things creative with my technical background, whether it's researching new technologies to use in 
+                        a data pipeline, or teaching myself React to build web apps. 
+                        When I'm not working as a software engineer at JP Morgan Chase, I enjoy taking dance classes, making accessories for my Etsy shop, and exploring New York!
                     </p>
                     </div>
                 </div>
