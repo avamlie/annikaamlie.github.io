@@ -54,21 +54,19 @@ export default class Projects extends Component {
 									</div>
 								</div>
 							</div>
-							{/* <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
+								<div className="project" style={{backgroundImage: 'url(images/annika-todo-app-ss.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 04</a></h3>
-											<span>Application</span>
+											<h3 style={{color: 'white'}}>React To-Do App (In Progress)</h3>
+											<span>Learning React by creating a simple to-do application</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="https://github.com/avamlie/annika-react-todo-app">View Here</a></span>
 											</p>
 										</div>
 									</div>
 								</div>
-							</div> */}
+							</div>
 							{/* <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
 								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
 									<div className="desc">

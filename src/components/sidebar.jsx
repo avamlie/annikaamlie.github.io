@@ -8,9 +8,10 @@ export default class Sidebar extends Component {
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight" style={{backgroundColor: '#faf4e1'}}>
             <div className="text-center">
-              <div className="author-img" style={{backgroundImage: 'url(images/AnnikaAmlieLightBkgd.png)'}} />
-              {/* <h1 id="colorlib-logo"><a href="index.html">Annika Amlie</a></h1> */}
-              <span className="email"><a href="mailto:aamlie.01@gmail.com" style={{color: 'black'}}><i className="icon-mail"></i>  aamlie.01@gmail.com</a></span>
+              <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} /> 
+              <h1 style={{paddingLeft: '10px', paddingTop: '10px', fontWeight: 'bold', fontSize: '25pt',color: '#FC6A38'}}>Annika Amlie</h1>
+              
+              <span className="email" ><a href="mailto:aamlie.01@gmail.com" style={{color: 'black'}}><i className="icon-mail" style={{marginTop:'20px'}}></i>  aamlie.01@gmail.com</a></span>
               
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
