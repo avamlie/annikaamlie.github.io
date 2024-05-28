@@ -1,2 +1,8 @@
 # avamlie.github.io
-Personal website for Annika Amlie
+Personal website for Annika Amlie. Created using a React template from Dhruv Barochiya: https://www.freecodecamp.org/news/portfolio-app-using-react-618814e35843/
+
+# Install
+`npm install`
+
+# Usage
+`npm start`
