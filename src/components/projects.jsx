@@ -12,13 +12,13 @@ export default class Projects extends Component {
 								<h2 className="colorlib-heading animate-box">Recent Projects</h2>
 							</div>
 						</div>
-						<div className="row">
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+						<div className="my-row">
+							<div data-animate-effect="fadeInLeft">
 								<div className="project" style={{backgroundImage: 'url(images/simple_personal_website.png)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3 style={{color: 'white'}}>Personal Website using HTML/CSS</h3>
-											<span>First attempt at a personal website using HTML & CSS</span>
+											<span style={{lineHeight: 1.2}}>First attempt at a personal website using HTML & CSS</span>
 											<p className="icon">
 												<span><a href="https://github.com/avamlie/simple_personal_website">View Here</a></span>
 											</p>
@@ -26,12 +26,12 @@ export default class Projects extends Component {
 									</div>
 								</div>
 							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+							<div  data-animate-effect="fadeInRight">
 								<div className="project" style={{backgroundImage: 'url(images/golden_globes_vintage.png)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3 style={{color: 'white'}}>Golden Globes NLP Project</h3>
-											<span>Uses natural language processing to determine the winners of the Golden Globes given a subset
+											<span style={{lineHeight: 1.2}}>Uses natural language processing to determine the winners of the Golden Globes given a subset
 												of tweets related to the event.
 											</span>
 											<p className="icon">
@@ -41,12 +41,12 @@ export default class Projects extends Component {
 									</div>
 								</div>
 							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
+							<div data-animate-effect="fadeInTop">
 								<div className="project" style={{backgroundImage: 'url(images/recipes.jpeg)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3 style={{color: 'white'}}>NLP Recipe Project</h3>
-											<span>Transforms any AllRecipes recipe into a different type or cuisine or makes it diet-restriction-friendly</span>
+											<span style={{lineHeight: 1.2}}>Transforms any AllRecipes recipe into a different type or cuisine or makes it diet-restriction-friendly</span>
 											<p className="icon">
 												<span><a href="https://github.com/avamlie/project2-recipes">View Here</a></span>
 											</p>
@@ -54,12 +54,12 @@ export default class Projects extends Component {
 									</div>
 								</div>
 							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
+							<div data-animate-effect="fadeInBottom">
 								<div className="project" style={{backgroundImage: 'url(images/annika-todo-app-ss.png)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3 style={{color: 'white'}}>React To-Do App (In Progress)</h3>
-											<span>Learning React by creating a simple to-do application</span>
+											<span style={{lineHeight: 1.2}}>Learning React by creating a simple to-do application</span>
 											<p className="icon">
 												<span><a href="https://github.com/avamlie/annika-react-todo-app">View Here</a></span>
 											</p>
