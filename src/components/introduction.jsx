@@ -1,4 +1,5 @@
-import '../index.css'
+import '../index.css';
+import Pdf from './Annika_Amlie_Resume.pdf';
 
 import React, { Component } from 'react'
 
@@ -18,7 +19,8 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1 style={{color: "#E9E1C7", fontSize: '55pt'}}>Hi! <br />I'm Annika</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://aqua-raquel-79.tiiny.site/" target="_blank" rel="noopener noreferrer" style={{color: "#E9E1C7"}}>View CV<i className="icon-download4" /></a></p>
+                          <a className="btn btn-primary btn-learn" href={Pdf} without rel="noopener noreferrer" target="_blank">View CV</a>
+                          {/* <p><a className="btn btn-primary btn-learn" href="Annika_Amlie_Resume.pdf" target="_blank" rel="noopener noreferrer" style={{color: "#E9E1C7"}}>View CV<i className="icon-download4" /></a></p> */}
                         </div>
                       </div>
                     </div>
